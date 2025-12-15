@@ -13,11 +13,11 @@ jobs:
     timeout-minutes: 2
     steps:
       - name: Checkout source
-        uses: actions/checkout@v4 # v4
+        uses: actions/checkout@v4
 
       - name: Check links
         # yamllint disable-line rule:line-length
-        uses: lycheeverse/lychee-action@v2 # v2
+        uses: lycheeverse/lychee-action@v2
         with:
           args: --no-progress --verbose .
           failIfEmpty: false
