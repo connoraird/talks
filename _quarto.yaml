@@ -1,0 +1,45 @@
+---
+project:
+  type: website
+
+execute:
+  cache: true
+
+format:
+  html:
+    theme: darkly
+  revealjs:
+    auto-play-media: true
+    auto-stretch: false
+    callout-appearance: simple
+    code-copy: true
+    filters:
+      - _filters/slugify.lua
+    footer: "{{< meta title >}} - <https://connoraird.github.io/talks>z"
+    hash-type: number
+    history: false
+    incremental: true
+    link-external-filter: ^https:\/\/connoraird\.github\.io
+    link-external-icon: true
+    logo: favicon.ico
+    mermaid:
+      theme: dark
+    menu:
+      hideMissingTitles: true
+      useTextContentForMissingTitles: false
+    mobile-view-distance: 10
+    slide-number: c
+    theme: dark
+    transition: fade
+    view-distance: 10
+
+website:
+  favicon: favicon.ico
+  navbar:
+    tools:
+      - icon: house
+        href: https://connoraird.github.io
+      - icon: github
+        href: https://github.com/connoraird/talks
+  site-url: https://connoraird.github.io/talks
+  title: Connor Aird
