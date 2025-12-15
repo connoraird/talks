@@ -1,6 +1,6 @@
 # Talks
 
-An archive of my upcoming and earlier talks
+An archive of my upcoming and previous talks
 
 ## Acknowledgment
 
