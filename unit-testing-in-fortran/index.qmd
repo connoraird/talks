@@ -1,0 +1,38 @@
+---
+author: Connor Aird
+date: 2026-01-31
+format: revealjs
+subtitle: "FOSDEM 2026: Testing and Continuous Delivery devroom"
+title: "Unit tesing in Fortran"
+---
+
+<!-- Plan for Fortran FOSDEM talk
+- Provide data about Fortran code being untested
+- Describe why testing Fortran is hard
+    - Legacy code which often uses lots of global state
+    - Legacy dependencies make it hard to port to new environments such as CI pipelines.
+    - Introduce reasons this may be the case
+    - Black box legacy code
+        - Unclear which tool to choose (lot's of options with little guidance)
+        - Show current landscape (post in fortran lang)
+- Why pFUnit is the one we tend to choose
+    - Can test MPI
+    - Most fully featured
+    - Is in active development
+    - Accepting contributions
+        - Include example of fixing intel 22 bug in a Day/weekend
+- How pFUnit works
+    - Attempts to look like other testing frameworks
+        - Define inputs and outputs for parametrization
+    - How you can use it in CI workflows (docker)
+- Introduce the Fortran course I have been working on and possibly Fortran tooling -->
+
+{{< include _slides/motivation.qmd >}}
+
+# Acknowledgements
+
+::: {.nonincremental}
+
+{{< include /_includes/shared-acknowledgements.qmd >}}
+
+:::
