@@ -1,6 +1,8 @@
-## Why is testing Fortran hard {.smaller}
+## Why is testing Fortran hard
 
-:::: {layout-ncol=2}
+:::: {layout-ncol=2 .r-fit-text}
+
+::: {.fragment}
 
 ### Reasons
 
@@ -10,6 +12,10 @@
   - Sometimes a bit of a black box.
 - Unclear which tool to choose.
 
+:::
+
+::: {.fragment}
+
 ### Side effects
 
 - Tests must be isolated.
@@ -18,5 +24,7 @@
 - Not clear what to test (not actually a problem IMHO)
 - Many custom testing setups exist
   - Test frameworks do not benefit from open source contibutions.
+
+:::
 
 ::::
