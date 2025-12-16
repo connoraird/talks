@@ -10,5 +10,6 @@ _site
 index-listing.json
 site_libs
 .venv
+*.DS_Store
 
 **/*.quarto_ipynb
