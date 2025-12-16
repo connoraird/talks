@@ -8,6 +8,8 @@ title: "Unit tesing in Fortran"
 
 {{< include _slides/why_testing_fortran_is_hard.qmd >}}
 
+{{< include _slides/available_frameworks.qmd >}}
+
 # Acknowledgements
 
 ::: {.nonincremental}
